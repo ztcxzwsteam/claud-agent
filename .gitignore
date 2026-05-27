@@ -1,0 +1,15 @@
+# 忽略 Neo4j 数据库数据目录
+neo4j/
+
+# 忽略 etcd 数据和日志目录
+etcd/
+
+# 忽略其他本地和敏感文件
+.env
+*.db
+*.sqlite
+node_modules/
+__pycache__/
+*.log
+.idea/
+.vscode/
